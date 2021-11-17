@@ -1,0 +1,33 @@
+$white: #ffffff;
+$neon-pink-primary: #ee1c75;
+$neon-pink-primary-op: #ee1C75F4;
+$neon-pink-primary-op-all: #ee1C7500;
+$primary: #61cdf8;
+$neon-orange: #f2612c;
+$neon-pink-secondary: #f94381;
+$purple: #0c072a;
+$purple-transparent: rgba($purple, 0);
+$grey: #c4c4c4;
+$dark: #070411;
+$footer-bg: #0e091e;
+
+$purple-gradient: linear-gradient(
+  180deg,
+  $purple 0%,
+  #0e082d 47%,
+  #460960 100%
+);
+$purple-dark-gradient: linear-gradient(
+  180deg,
+  $purple-transparent 0%,
+  $purple 55%,
+  $purple 100%
+);
+$purple-light-gradient: linear-gradient(
+  136deg,
+  #8b16b4 0%,
+  #2f0546 52%,
+  #0e001e 100%
+);
+
+$box-shadow: 0px 0px 6px #f312d2;

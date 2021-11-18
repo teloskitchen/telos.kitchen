@@ -1,0 +1,17 @@
+.link-list{
+  display: flex;
+  list-style: none;
+
+  & .link-item {
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+  }
+
+  & .link-item-sm {
+    &:not(:last-child) {
+      margin-right: 3.4rem;
+    }
+  }
+
+}

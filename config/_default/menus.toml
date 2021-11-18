@@ -1,0 +1,40 @@
+[[main]]
+  name = "Team"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "Projects"
+  url = "/"
+  weight = 2
+
+[[main]]
+  name = "Values"
+  url = "/"
+  weight = 3
+
+[[main]]
+  name = "Vote"
+  url = "/"
+  weight = 4
+
+[[social]]
+  name = "Medium"
+  url = ""
+  weight = 1
+  [social.params]
+    icon = "icons/medium.svg"
+
+[[social]]
+  name = "Twitter"
+  url = ""
+  weight = 2
+  [social.params]
+    icon = "icons/twitter.svg"
+
+[[social]]
+  name = "Gitlab"
+  url = ""
+  weight = 3
+  [social.params]
+    icon = "icons/gitlab.svg"

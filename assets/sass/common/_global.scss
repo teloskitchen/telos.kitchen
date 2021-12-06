@@ -2,6 +2,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: $body-bg;
+  overflow-x: hidden;
+}
+
 *, *::after,*::before {
   margin: 0;
   padding: 0;

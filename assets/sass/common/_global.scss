@@ -46,3 +46,82 @@ a {
   background: transparent $purple-gradient 0% 0% no-repeat padding-box;
   overflow: hidden;
 }
+
+.fadeIn {
+  animation: fadeIn 2s 1s ease-in-out forwards;
+  @keyframes fadeIn {
+    from {
+      transform: translateX(5%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+}
+
+.fadeInL {
+  animation: fadeInL 2s 1s ease-in-out forwards;
+  @keyframes fadeInL {
+    from {
+      transform: translateX(-5%);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+}
+
+.fadeOut {
+  animation: fadeOut 1s ease-in-out forwards;
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translate(5%, -5%);
+    }
+  }
+}
+
+.fadeOutL {
+  animation: fadeOutL 1s ease-in-out forwards;
+  @keyframes fadeOutL {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translate(-5%, -5%);
+    }
+  }
+}
+
+@mixin fadeUp($delay) {
+  @if $delay == 0 {
+    animation: fadeUp 2s ease-in-out forwards;
+  } @else {
+    position: relative;
+    animation: fadeUp 2s $delay ease-in-out forwards;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.fluid-img {
+  max-width: 100%;
+  height: auto;
+}

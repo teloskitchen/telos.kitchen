@@ -1,7 +1,7 @@
 $white: #ffffff;
 $neon-pink-primary: #ee1c75;
-$neon-pink-primary-op: #ee1C75F4;
-$neon-pink-primary-op-all: #ee1C7500;
+$neon-pink-primary-op: #ee1c75f4;
+$neon-pink-primary-op-all: #ee1c7500;
 $primary: #61cdf8;
 $neon-orange: #f2612c;
 $neon-pink-secondary: #f94381;
@@ -10,6 +10,7 @@ $purple-transparent: rgba($purple, 0);
 $grey: #c4c4c4;
 $dark: #070411;
 $footer-bg: #0e091e;
+$body-bg: #120032;
 
 $purple-gradient: linear-gradient(
   180deg,
@@ -30,4 +31,13 @@ $purple-light-gradient: linear-gradient(
   #0e001e 100%
 );
 
+$purple-light-gradient-2: linear-gradient(180deg, #460960 0%, #150035, #04010a);
+
 $box-shadow: 0px 0px 6px #f312d2;
+$box-shadow-white: 0px 0px 6px $white;
+
+$breakpoint-sm: 40rem; // 640px
+$breakpoint-md: 48rem; // 768px
+$breakpoint-lg: 64em; // 1024px
+$breakpoint-xl: 80em; // 1280px
+$breakpoint-2xl: 96em; // 1536px

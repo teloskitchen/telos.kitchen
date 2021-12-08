@@ -7,7 +7,9 @@ body {
   overflow-x: hidden;
 }
 
-*, *::after,*::before {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
 }
@@ -36,13 +38,11 @@ a {
 
 .main-bg {
   width: 100%;
-  height: 189.6rem;
-  background-image: url(/images/bg.svg);
-  background-position: bottom;
+  background: repeat-x bottom url(/images/bg.svg);
   overflow: hidden;
 }
 
-.second-bg {
+.secondary-bg {
   background: transparent $purple-gradient 0% 0% no-repeat padding-box;
   overflow: hidden;
 }

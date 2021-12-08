@@ -1,0 +1,53 @@
+.m {
+  &-sm {
+    margin: 3rem;
+  }
+
+  &-md {
+    margin: 4rem;
+  }
+
+  &-lg {
+    margin: 5rem;
+  }
+
+  &-xl {
+    margin: 10rem;
+  }
+
+  &t {
+    &-sm {
+      margin-top: 3rem;
+    }
+
+    &-md {
+      margin-top: 4rem;
+    }
+
+    &-lg {
+      margin-top: 5rem;
+    }
+
+    &-xl {
+      margin-top: 10rem;
+    }
+  }
+
+  &b {
+    &-sm {
+      margin-bottom: 3rem;
+    }
+
+    &-md {
+      margin-bottom: 4rem;
+    }
+
+    &-lg {
+      margin-bottom: 5rem;
+    }
+
+    &-xl {
+      margin-bottom: 10rem;
+    }
+  }
+}

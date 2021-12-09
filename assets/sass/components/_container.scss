@@ -1,4 +1,8 @@
 .container {
+  width: 90%;
   max-width: 140rem;
   margin: 0 auto;
+  @media screen and (min-width: $breakpoint-sm) {
+    width: 80%;
+  }
 }

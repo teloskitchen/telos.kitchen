@@ -1,2 +1,8 @@
 {{ block "scripts" . }}
+  {{ if .IsHome }}
+    {{ $project := resources.Get "js/projects.js" -}}
+    <script src="{{ $project.Permalink }}" defer></script>
+    {{ $animations := resources.Get "js/animations.js" -}}
+    <script src="{{ $animations.Permalink }}" defer></script>
+  {{ end }}
 {{ end }}

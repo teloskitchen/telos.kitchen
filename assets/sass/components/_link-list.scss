@@ -14,4 +14,15 @@
     }
   }
 
+  .link-selector {
+    width: 0;
+    margin: 0;
+    transition: 1s ease-in;
+    transition-property: background, opacity, width;
+  }
+
+  .link-active {
+    width: 100%;
+  }
+
 }

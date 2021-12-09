@@ -6,10 +6,11 @@
     <a href="">
       <img src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}" height="{{ $logo.Height }}" alt="Telos Kitchen Logo">
     </a>
-    <ul class="link-list">
+    <ul id="header-main-link" class="link-list">
       {{ range .Site.Menus.main -}}
         <li class="link-item">
           <a href="{{ .URL }}">{{ .Pre | safeHTML }}<span>{{ .Name | safeHTML }}</span></a>
+          <span class="link-selector divider"></span>
         </li>
       {{ end -}}
     </ul>

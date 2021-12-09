@@ -1,0 +1,13 @@
+{{ $page := .Site.GetPage "about" }}
+<section>
+  <div class="container about">
+    <div class="information">
+      <h1 class="information-title mb-md"> {{ $page.Title }}</h1>
+      <p class="mb-sm"> {{ $page.Description }}</p>
+      <a class="information-link link-decorator" href="/">Learn more >></a>
+    </div>
+    <div class="about-img">
+      <img class="fluid-img" src="{{ "images/world.svg" | absURL }}" height="753" width="1173" alt="About information">
+    </div>
+  </div>
+</section>

@@ -1,0 +1,30 @@
+.about {
+
+  @media screen and (min-width: $breakpoint-xl) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .information {
+    @media screen and (min-width: $breakpoint-2xl) {
+      min-width: 58.3rem;
+    }
+    margin: auto 0;
+    opacity: 0;
+  }
+
+  &-img {
+    opacity: 0; 
+    margin-top: 10rem; 
+
+    img {
+      @media screen and (min-width: $breakpoint-xl) {
+        max-width: 90rem;
+      }
+      @media screen and (min-width: $breakpoint-2xl) {
+        max-width: 117.3rem;
+      }
+    }
+    
+  }
+}

@@ -1,7 +1,18 @@
 @import "./common/varibales";
 @import "./common/global";
 @import "./common/typography";
+@import "./common/margins";
 
 @import "./components/container.scss";
 @import "./components/link-list.scss";
+@import "./components/information";
+@import "./components/diviver";
+@import "./components/button";
 @import "./layouts/header.scss";
+@import "./layouts/footer";
+
+@import "./pages/about";
+@import "./pages/team";
+@import "./pages/projects";
+@import "./pages/values";
+@import "./pages/vote";

@@ -1,0 +1,14 @@
+{{ $page := .Site.GetPage "team" }}
+{{ $cityImg := resources.Get "images/city.png" }}
+{{ $city := $cityImg.Resize "1920x1400" }}
+<section class="team">
+  <div class="container">
+    <div class="information text-center">
+      <h2 class="h1 information-title"> {{ $page.Title }}</h2>
+      <p>{{ $page.Description }}</p>
+    </div>
+  </div>
+  <img class="sun" src="{{ "images/sun.svg" | absURL }}" width="1000" height="920" alt="">
+  <img class="city" src="{{ $city.RelPermalink }}" alt="">
+  <div class="team-bottom"></div>
+</section>

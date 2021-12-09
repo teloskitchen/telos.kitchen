@@ -1,4 +1,6 @@
 {{ block "scripts" . }}
+  {{ $header := resources.Get "js/header.js" -}}
+  <script src="{{ $header.Permalink }}" defer></script>
   {{ if .IsHome }}
     {{ $project := resources.Get "js/projects.js" -}}
     <script src="{{ $project.Permalink }}" defer></script>

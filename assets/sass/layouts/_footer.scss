@@ -1,0 +1,49 @@
+.footer {
+  padding-top: 7.4rem;
+  padding-bottom: 4.1rem;
+  &-bg {
+    background: $footer-bg;
+  }
+  &-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: $breakpoint-sm) {
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width: $breakpoint-lg) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &-home-links {
+    display: none;
+    @media screen and (min-width: $breakpoint-xl) {
+      display: flex;
+    }
+    @media screen and (min-width: $breakpoint-2xl) {
+      margin-left: 32.5rem;
+    }
+  }
+  &-social-links {
+    margin-top: 2rem;
+    @media screen and (min-width: $breakpoint-2xl) {
+      margin-left: 37rem;
+    }
+  }
+
+  &-copy {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: $grey;
+
+    &-span {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}

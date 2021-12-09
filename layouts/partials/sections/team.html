@@ -2,6 +2,7 @@
 {{ $cityImg := resources.Get "images/city.png" }}
 {{ $city := $cityImg.Resize "1920x1400" }}
 <section id="team" class="team">
+  <img class="stars" src="{{ "images/stars.svg" | absURL }}" alt="stars">
   <div class="container">
     <div class="information text-center">
       <h2 class="h1 information-title"> {{ $page.Title }}</h2>

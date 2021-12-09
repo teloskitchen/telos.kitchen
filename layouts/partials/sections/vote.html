@@ -1,0 +1,18 @@
+{{ $page := .Site.GetPage "vote" }}
+<section class="vote">
+  <div class="container">
+    <div class="vote-container">
+      <div class="information">
+        <h2 class="h1 information-title mb-lg"> {{ $page.Title }}</h2>
+        <p>{{ $page.Description }}</p>
+        <a class="btn mt-xl" href="">Vote Now</a>
+      </div>
+      <img class="vote-img fluid-img" src="{{ "images/tk.svg" | absURL }}" alt="Telos Kitchen Small Logo">
+    </div>
+    <div class="vote-links">
+      {{ range .Site.Menus.social -}}
+        <a class="vote-link" href="{{ .URL | absURL }}"><img class="vote-link-img" src="{{ .Params.icon }}" width="32" height="22" alt="{{ .Name }}"><span class="vote-link-text">Connect with {{ .Name | safeHTML }}</span></a>
+      {{ end -}}
+    </div>
+  </div>
+</section>

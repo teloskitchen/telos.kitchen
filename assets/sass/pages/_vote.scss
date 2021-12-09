@@ -1,0 +1,82 @@
+.vote {
+  background-image: $purple-light-gradient;
+  padding: 21rem 0 9rem;
+  &-container {
+    position: relative;
+    gap: 13.5rem;
+
+    @media screen and (min-width: $breakpoint-xl) {
+      display: flex;
+      max-height: 37.5rem;
+    }
+
+    * > {
+      flex: 0 0 auto;
+    }
+  }
+
+  .information {
+    margin-bottom: 5rem;
+    @media screen and (min-width: $breakpoint-xl) {
+      margin-bottom: 0;
+    }
+  }
+
+  &-links {
+    padding-top: 14rem;
+    text-align: center;
+  }
+
+  &-link {
+    display: block;
+    margin-bottom: 3rem;
+    text-align: justify;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: $breakpoint-lg) {
+    }
+    
+    @media screen and (min-width: $breakpoint-lg) {
+      display: inline-block;
+      margin-bottom: 0;
+      max-width: 40rem;
+      margin-right: 5.5rem;
+      margin-bottom: 5rem;
+      &:last-child {
+        margin-right: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    @media screen and (min-width: $breakpoint-xl) {
+      margin-bottom: 0;
+    }
+    
+
+    &-img {
+      vertical-align: bottom;
+    }
+
+    &-text {
+      margin-left: 1rem;
+      @media screen and (min-width: $breakpoint-md) {
+        margin-left: 3.5rem;
+      }
+    }
+  }
+
+  .btn {
+    @media screen and (min-width: $breakpoint-xl) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  &-img {
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+  }
+}

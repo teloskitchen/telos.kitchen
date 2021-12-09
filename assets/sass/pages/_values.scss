@@ -1,0 +1,183 @@
+.values {
+  background-image: linear-gradient(180deg, #0d072b 0%, #0e0024 100%);
+  position: relative;
+  overflow: hidden;
+  
+  padding-bottom: 5rem; 
+  
+  @media screen and (min-width: $breakpoint-md) {
+    padding-bottom: 10rem;
+  }
+  
+  @media screen and (min-width: $breakpoint-lg) {
+    padding-bottom: 15rem;
+  }
+
+  @media screen and (min-width: $breakpoint-2xl) {
+    margin-top: 0;
+    padding-bottom: 0;
+    height: 140rem;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #front {
+    width: 110%;
+    position: absolute;
+    right: -1%;
+  }
+
+  #back {
+    width: 100%;
+    top: 5%;
+    right: -7%;
+    position: absolute;
+  }
+
+  &-info {
+    position: relative;
+    z-index: 1;
+    padding-top: 25%;
+    @media screen and (min-width: $breakpoint-2xl) {
+      position: absolute;
+      padding-top: 15%;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-list {
+    width: 100%;
+    @media screen and (min-width: $breakpoint-lg) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6.1rem;
+      width: fit-content;
+    }
+
+    .up-1 {
+      @include fadeUp(.3s);
+    }
+    
+    .up-2 {
+      @include fadeUp(.6s);
+    }
+
+    .up-3 {
+      @include fadeUp(.9s);
+    }
+
+  }
+
+  .value {
+    position: relative;
+    margin: 0 auto;
+    opacity: 0;
+
+    width: 26.5rem;
+    height: 28rem;
+    margin-bottom: 5rem;
+
+    @media screen and (min-width: $breakpoint-sm) {
+      width: 32.5rem;
+      height: 36rem;
+    }
+
+    @media screen and (min-width: $breakpoint-md) {
+      width: 42.5rem;
+      height: 46rem;
+    }
+    
+    @media screen and (min-width: $breakpoint-lg) {
+      margin-bottom: 0;
+    }
+
+    &-header {
+      display: flex;
+      align-items: center;
+
+      img {
+        display: none;
+        margin-right: 0;
+        @media screen and (min-width: $breakpoint-sm) {
+          margin-right: 2.5rem;
+        }
+        @media screen and (min-width: $breakpoint-sm) {
+          display: inline;
+        }
+      }
+    }
+
+    &-card {
+      position: absolute;
+      width: 100%;
+    }
+
+    &-info {
+      position: absolute;
+      width: 80%;
+      margin: 2rem 2.5rem 0rem 3rem;
+      @media screen and (min-width: $breakpoint-sm) {
+      }
+      @media screen and (min-width: $breakpoint-md) {
+        margin: 4rem 4rem 5rem 4rem;
+        width: 35rem;
+      }
+
+      span {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        @media screen and (min-width: $breakpoint-sm) {
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+}
+
+.card {
+  &-1 {
+    filter: drop-shadow(0px 0px 6px $neon-pink-primary);
+  }
+  &-2 {
+    filter: drop-shadow(0px 0px 6px $neon-pink-secondary);
+  }
+  &-3 {
+    filter: drop-shadow(0px 0px 6px $neon-orange);
+  }
+  
+  &-1-hover {
+    &:hover {
+      background-color: rgba($color: $neon-pink-primary, $alpha: 0.1);
+    }
+  }
+  &-2-hover {
+    &:hover {
+      background-color: rgba($color: $neon-pink-secondary, $alpha: 0.1);
+    }
+  }
+  &-3-hover {
+    &:hover {
+      background-color: rgba($color: $neon-orange, $alpha: 0.1);
+    }
+  }
+
+  &-text-1 {
+    color: $neon-pink-primary;
+  }
+  
+  &-text-2 {
+    color: $neon-pink-secondary;
+  }
+  
+  &-text-3 {
+    color: $neon-orange;
+  }
+}

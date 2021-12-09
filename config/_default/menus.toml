@@ -23,18 +23,18 @@
   url = ""
   weight = 1
   [social.params]
-    icon = "icons/medium.svg"
+    icon = "/icons/medium.svg"
 
 [[social]]
   name = "Twitter"
   url = ""
   weight = 2
   [social.params]
-    icon = "icons/twitter.svg"
+    icon = "/icons/twitter.svg"
 
 [[social]]
   name = "Gitlab"
   url = ""
   weight = 3
   [social.params]
-    icon = "icons/gitlab.svg"
+    icon = "/icons/gitlab.svg"

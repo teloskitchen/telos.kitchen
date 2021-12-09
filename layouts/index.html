@@ -1,3 +1,14 @@
 {{ define "main" }}
+<div>
 {{ partial "header/header.html" . }}
+  <div class="main-bg">
+  {{ partial "sections/about.html" . }}
+  {{ partial "sections/team.html" . }}
+  </div>
+  <div class="secondary-bg">
+  {{ partial "sections/projects.html" . }}
+  {{ partial "sections/values.html" . }}
+  </div>
+</div>
+{{ partial "sections/vote.html" . }}
 {{ end }}

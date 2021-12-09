@@ -1,6 +1,6 @@
 {{ $page := .Site.GetPage "team" }}
 {{ $cityImg := resources.Get "images/city.png" }}
-{{ $city := $cityImg.Resize "1920x1400" }}
+{{ $city := $cityImg.Resize "1920x1400 webp" }}
 <section id="team" class="team">
   <img class="stars" src="{{ "images/stars.svg" | absURL }}" alt="stars">
   <div class="container">

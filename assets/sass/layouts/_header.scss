@@ -12,6 +12,13 @@
     align-items: center;
     justify-content: space-between;
     z-index: 11;
+
+    .link-list {
+      display: none;
+      @media screen and (min-width: $breakpoint-xl) {
+        display: flex;
+      }
+    }
   }
 
   &-bg {

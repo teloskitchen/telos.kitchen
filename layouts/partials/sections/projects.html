@@ -1,0 +1,28 @@
+{{ $page := .Site.GetPage "projects" }} 
+{{ $pages := last 4 $page.Pages }} 
+
+<section >
+  <div class="container">
+    <h2>{{ $page.Title }}</h2>
+    <span class="divider"></span>
+    <div class="projects">
+      <div class="projects-images">
+        {{ range sort $pages "Date" "asc" }}
+          <img src="{{ .Params.Img | absURL }}" alt="">
+        {{ end }}
+      </div>
+      <div class="projects-list">
+        {{ range sort $pages "Date" "asc" }}
+          <div class="project">
+            <h3 class="h6 project-title"><span class="project-symbol">+</span> {{ .Title }}</h3>
+            <div class="project-body">
+              <p> {{ .Description}} </p>
+              <a class="link-decorator" href="{{ .Permalink }}">Learn more >></a>
+            </div>
+            <span class="divider"></span>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

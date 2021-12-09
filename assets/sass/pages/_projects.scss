@@ -1,0 +1,76 @@
+.projects {
+  display: flex;
+  margin-bottom: 10rem;
+  @media screen and (min-width: $breakpoint-2xl) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $breakpoint-2xl) {
+    max-height: 62.5rem;
+  }
+  
+  &-images {
+    display: none; 
+    @media screen and (min-width: $breakpoint-xl) {
+      display: block;
+    }
+    width: calc(100% - 59rem);
+    margin: 6.2rem 11.2rem 4.6rem 8.9rem;
+    position: relative;
+
+    img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      max-height: 59.4rem;
+    }
+
+    .img-active {
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+  }
+
+  &-list {
+    @media screen and (min-width: $breakpoint-xl) {
+      width: 59rem;
+    }
+  }
+
+  .project {
+    height: auto;
+
+    &-title {
+      opacity: .5;
+      color: $white;
+      transition: all .5s;
+      &-active {
+        opacity: 1;
+        color: $primary;
+        transition: all .5s;
+      }
+    }
+
+    &-body {
+      max-height: 0;
+      transition: max-height .9s ease-in-out;
+      overflow: hidden;
+
+      &-active {
+        max-height: 500px;
+        transition: max-height 2s ease-in-out;
+      }
+    }
+
+    &-symbol {
+      opacity: 1; 
+      transition: all 3s;
+
+      &-hide {
+        opacity: 0;
+        transition: opacity 2s;
+      }
+    }
+  }
+}

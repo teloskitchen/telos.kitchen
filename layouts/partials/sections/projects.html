@@ -8,7 +8,13 @@
     <div class="projects">
       <div class="projects-images">
         {{ range sort $pages "Date" "asc" }}
-          <img src="{{ .Params.Img | absURL }}" alt="">
+          {{ if in .Params.Img "png" }}
+              {{ $img := resources.Get .Params.Img }}
+              {{ $imgR := $img.Resize "700x450 webp" }}
+             <img src="{{ $imgR.RelPermalink }}" width="{{ $imgR.Width }}" height="{{ $imgR.Height }}" alt="">
+          {{ else }}
+            <img src="{{ .Params.Img | absURL }}" alt="">
+          {{ end }}
         {{ end }}
       </div>
       <div class="projects-list">

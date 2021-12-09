@@ -1,0 +1,15 @@
+<svg id="Livello_2" data-name="Livello 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="2136" viewBox="0 0 1920 2136">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ee2a7b"/>
+      <stop offset="0.259" stop-color="#410c5d"/>
+      <stop offset="0.364" stop-color="#2d074b"/>
+      <stop offset="0.58" stop-color="#1e033d"/>
+      <stop offset="0.75" stop-color="#150135"/>
+      <stop offset="1" stop-color="#120032"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect id="Rectangle_338" data-name="Rectangle 338" width="1920" height="2136" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -17,7 +17,7 @@
     <ul class="link-list">
       {{ range .Site.Menus.social -}}
         <li class="link-item-sm">
-          <a href="{{ .URL | absURL }}"><img src="{{ .Params.icon }}" width="32" height="22" alt="{{ .Name }}"><span class="sr-only">{{ .Name | safeHTML }}</span></a>
+          <a href="{{ .URL | absURL }}"><img src="{{ .Params.icon | absURL }}" width="32" height="22" alt="{{ .Name }}"><span class="sr-only">{{ .Name | safeHTML }}</span></a>
         </li>
       {{ end -}}
     </ul>

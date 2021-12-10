@@ -5,7 +5,7 @@
       <div class="information">
         <h2 class="h1 information-title mb-lg"> {{ $page.Title }}</h2>
         <p>{{ $page.Description }}</p>
-        <a class="btn mt-xl" href="{{ "/" | absURL }}">Vote Now</a>
+        <a class="btn mt-xl" href="{{ .Site.BaseURL }}">Vote Now</a>
       </div>
       <img class="vote-img fluid-img" src="{{ "images/tk.svg" | absURL }}" width="684" height="373" alt="Telos Kitchen Small Logo">
     </div>

@@ -4,8 +4,9 @@ html {
 }
 
 body {
-  background-color: $body-bg;
+  background-color: #14032C;
   overflow-x: hidden;
+  font-family: $font-family-agency;
 }
 
 *,
@@ -39,8 +40,6 @@ a {
 
 .main-bg {
   width: 100%;
-  background: repeat-x bottom url(../images/bg.svg);
-  overflow: hidden;
 }
 
 .secondary-bg {

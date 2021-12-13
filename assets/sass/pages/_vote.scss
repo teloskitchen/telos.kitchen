@@ -31,11 +31,12 @@
     display: block;
     margin-bottom: 3rem;
     text-align: justify;
-    max-width: 30rem;
+    max-width: 24rem;
     margin-left: auto;
     margin-right: auto;
 
-    @media screen and (min-width: $breakpoint-lg) {
+    @media screen and (min-width: $breakpoint-md) {
+      max-width: 26rem;
     }
     
     @media screen and (min-width: $breakpoint-lg) {

@@ -180,4 +180,19 @@
   &-text-3 {
     color: $neon-orange;
   }
+
+  &-title {
+    &-1 {
+      color: $neon-pink-primary;
+      font-weight: 700;
+    }
+    &-2 {
+      color: $neon-pink-secondary;
+      font-weight: 700;
+    }
+    &-3 {
+      color: $neon-orange;
+      font-weight: 700;
+    }
+  }
 }

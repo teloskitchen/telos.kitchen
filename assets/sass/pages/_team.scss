@@ -40,8 +40,11 @@
     background-image: $purple-dark-gradient;
     bottom: 0;
     z-index: 3;
-    height: 20%;
-    @media screen and (min-width: $breakpoint-sm) {
+    height: 10%;
+    @media screen and (min-width: $breakpoint-md) {
+      height: 20%;
+    }
+    @media screen and (min-width: $breakpoint-2xl) {
       height: 35%;
     }
   }

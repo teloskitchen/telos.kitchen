@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Agency Fb";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("Agency Fb"),
+    url("../fonts/agency/Agency-Regular.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "Agency Fb";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("Agency Fb"),
+    url("../fonts/agency/Agency-Bold.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "Perfect Dos VGA 437";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("Agency Fb"),
+    url("../fonts/perfect-dos-vga/Perfect-Dos-Vga-437.woff2") format("woff2"),
+}

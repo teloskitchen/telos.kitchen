@@ -128,10 +128,5 @@ a {
 }
 
 .stars {
-  position: absolute;
-  background: #f312d2;
-  background-image: url(../images/stars.svg);
-  opacity: .5;
-  width: 100vw;
-  -webkit-mask-image: url(../images/stars.svg);
+  background-image: url(../images/stars-bg.png);
 }

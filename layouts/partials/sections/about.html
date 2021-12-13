@@ -1,6 +1,5 @@
 {{ $page := .Site.GetPage "about" }}
-<section id="about">
-  <img class="stars" src="{{ "images/stars.svg" | absURL }}" alt="stars">
+<section id="about" class="stars">
   <div class="container about">
     <div class="information">
       <h1 class="information-title mb-md"> {{ $page.Title }}</h1>

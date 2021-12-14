@@ -7,11 +7,11 @@
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
   &-container {
-    position: relative;
+    // position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 11;
+    // z-index: 11;
     height: 10.6rem;
 
     .link-list {
@@ -28,6 +28,7 @@
     background-color: $dark;
     opacity: 0.4;
     position: absolute;
+    z-index: -1;
   }
 
 }

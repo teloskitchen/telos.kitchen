@@ -8,6 +8,11 @@
     @media screen and (min-width: $breakpoint-xl) {
       display: flex;
       max-height: 37.5rem;
+      gap: 5rem;
+    }
+    
+    @media screen and (min-width: $breakpoint-2xl) {
+      gap: 13.5rem;
     }
 
     * > {

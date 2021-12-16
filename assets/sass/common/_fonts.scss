@@ -5,7 +5,7 @@
   font-display: swap;
   src:
     local("Agency Fb"),
-    url("../fonts/agency/Agency-Regular.woff") format("woff"),
+    url("../fonts/agency/Agency-Regular.TTF") format('truetype'),
 }
 
 @font-face {
@@ -15,7 +15,7 @@
   font-display: swap;
   src:
     local("Agency Fb"),
-    url("../fonts/agency/Agency-Bold.woff") format("woff"),
+    url("../fonts/agency/Agency-Bold.TTF") format('truetype'),
 }
 
 @font-face {
@@ -25,5 +25,5 @@
   font-display: swap;
   src:
     local("Agency Fb"),
-    url("../fonts/perfect-dos-vga/Perfect-Dos-Vga-437.woff2") format("woff2"),
+    url("../fonts/perfect-dos-vga/Perfect-Dos-Vga-437.ttf") format('truetype'),
 }

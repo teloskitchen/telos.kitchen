@@ -13,25 +13,28 @@ const $values = [...$valuesList.children]
 const $vote = document.querySelector('.vote-container')
 const $img = document.querySelector('.vote-img')
 
-const aboutAction = (entries) => {
-  if(entries[0].isIntersecting) {
-    $informationAbout.classList.remove('fadeOutL')
-    $aboutImg.classList.remove('fadeOut') 
-    $informationAbout.classList.add('fadeInL')
-    $aboutImg.classList.add('fadeIn') 
-  } else {
-    $informationAbout.classList.remove('fadeInL')
-    $aboutImg.classList.remove('fadeIn') 
-    $informationAbout.classList.add('fadeOutL')
-    $aboutImg.classList.add('fadeOut') 
-  }
-}
 
-const aboutObserver = new IntersectionObserver(aboutAction, {
-  threshold: .3
-})
+$informationAbout.classList.add('fadeInL')
+$aboutImg.classList.add('fadeIn') 
+// const aboutAction = (entries) => {
+//   if(entries[0].isIntersecting) {
+//     $informationAbout.classList.remove('fadeOutL')
+//     $aboutImg.classList.remove('fadeOut') 
+//     $informationAbout.classList.add('fadeInL')
+//     $aboutImg.classList.add('fadeIn') 
+//   } else {
+//     $informationAbout.classList.remove('fadeInL')
+//     $aboutImg.classList.remove('fadeIn') 
+//     $informationAbout.classList.add('fadeOutL')
+//     $aboutImg.classList.add('fadeOut') 
+//   }
+// }
 
-aboutObserver.observe($about)
+// const aboutObserver = new IntersectionObserver(aboutAction, {
+//   threshold: .3
+// })
+
+// aboutObserver.observe($about)
 
 ///  TEAM
 // const sunPosition = $sun.getBoundingClientRect()

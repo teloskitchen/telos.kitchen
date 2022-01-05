@@ -5,3 +5,7 @@ draft: false
 description: "This project allows users to create a free Telos account over SMS."
 img: "projects/message.svg"
 ---
+
+# SMS Account Creator
+
+1. step by step

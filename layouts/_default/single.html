@@ -1,2 +1,9 @@
 {{ define "main" }}
+  <div class="container content">
+    <h1>{{ .Title | markdownify }}</h1> 
+    <span class="divider"></span>
+    {{ if .Content }}
+      {{ .Content }}
+    {{ end }}
+  </div>
 {{ end }}

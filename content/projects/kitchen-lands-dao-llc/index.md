@@ -6,6 +6,6 @@ description: "The world's first legally recognized digitally-native, final settl
 img: "projects/buffalo.png"
 ---
 
-# Purchase Agreement
+## Purchase Agreement
 
-{{ "purchase-agreement.png" }}
+![purchase-agreement](purchase-agreement.png "purchase-agreement")

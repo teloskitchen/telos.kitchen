@@ -23,7 +23,7 @@
   url = "https://github.com/teloskitchen"
   weight = 1
   [social.params]
-    icon = "icons/github.fix.me.svg"
+    icon = "icons/github.svg"
 
 [[social]]
   name = "Twitter"

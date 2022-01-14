@@ -4,14 +4,13 @@
     <div class="vote-container">
       <div class="information">
         <h2 class="h1 information-title mb-lg"> {{ $page.Title }}</h2>
-        <p>{{ $page.Description }}</p>
-        <a class="btn mt-xl" href="{{ .Site.BaseURL }}">Vote Now</a>
+        <p>{{ $page.Description }}</p><br/>
+        <a class="information-link link-decorator" href="https://telos.bloks.io/vote?producers=teloskitchen">Vote on bloks.io >></a></a>
       </div>
       <img class="vote-img fluid-img" src="{{ "images/tk.svg" | absURL }}" width="684" height="373" alt="Telos Kitchen Small Logo">
     </div>
     <div class="vote-links">
       {{ range .Site.Menus.social -}}
-        <a class="vote-link" href="{{ .URL | absURL }}"><img class="vote-link-img" src="{{ .Params.icon | absURL }}" width="32" height="22" alt="{{ .Name }}"><span class="vote-link-text">Connect with {{ .Name | safeHTML }}</span></a>
       {{ end -}}
     </div>
   </div>

@@ -19,22 +19,22 @@
   weight = 4
 
 [[social]]
-  name = "Medium"
-  url = ""
+  name = "Github"
+  url = "https://github.com/teloskitchen"
   weight = 1
   [social.params]
-    icon = "icons/medium.svg"
+    icon = "icons/github.svg"
 
 [[social]]
   name = "Twitter"
-  url = ""
+  url = "https://twitter.com/TelosKitchen"
   weight = 2
   [social.params]
     icon = "icons/twitter.svg"
 
 [[social]]
   name = "Gitlab"
-  url = ""
+  url = "https://gitlab.com/telos-kitchen"
   weight = 3
   [social.params]
     icon = "icons/gitlab.svg"

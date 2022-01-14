@@ -4,5 +4,3 @@ description: "We are a global team focused on block production and innovation on
 url: "/"
 draft: false
 ---
-
-## Hi

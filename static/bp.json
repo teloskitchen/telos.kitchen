@@ -1,0 +1,46 @@
+{
+  "producer_account_name": "teloskitchen",
+  "org": {
+    "candidate_name": "Telos Kitchen",
+    "website": "https://telos.kitchen",
+    "ownership_disclosure": "https://telos.kitchen/disclosures.txt",
+    "email":"info@telos.kitchen",
+    "branding":{
+      "logo_256":"https://telos.kitchen/TK_256.png",
+      "logo_1024":"https://telos.kitchen/TK_1024.png",
+      "logo_svg":"https://telos.kitchen/TelosKitchen.svg"
+    },
+    "social": {
+      "twitter": "@TelosKitchen",
+      "medium":"@TelosKitchen"
+    },
+    "location":{
+      "name":"New Jersey",
+      "country":"US"
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "New Jersey",
+        "country": "US",
+        "latitude": 40.554459,
+        "longitude": -74.471645
+      },
+      "node_type": "producer"
+    },
+    {
+      "location": {
+        "name": "New Jersey",
+        "country": "US",
+        "latitude": 40.554459,
+        "longitude": -74.471645
+      },
+      "node_type": "full",
+      "p2p_endpoint": "api.telos.kitchen:9876",
+      "api_endpoint": "http://api.telos.kitchen",
+      "ssl_endpoint": "https://api.telos.kitchen"
+    }
+  ]
+}
+  

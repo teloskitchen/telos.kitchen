@@ -15,7 +15,7 @@
 
 [[main]]
   name = "Vote"
-  url = "/#vote"
+  url = "https://eosauthority.com/account?account=teloskitchen&network=telos"
   weight = 4
 
 [[social]]

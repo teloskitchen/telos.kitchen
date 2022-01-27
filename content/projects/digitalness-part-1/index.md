@@ -17,8 +17,7 @@ President Clinton’s speech is especially salient for our times.
 It is inspiring and features a live Presidential demo that erupts to thundering applause. The president provided a compelling glimpse into the possibilities of the technology of the time. The speech is a reminder of our current challenge - the unfortunate absence of national or executive branch leadership on modern Digitalness. 
 
 ## import youtube video
-https://www.youtube.com/watch?v=tZhqpl0nsOU
-
+ {{< youtube tZhqpl0nsOU >}}
 He starts
 
 >> Two hundred and thirteen years ago, about 100 feet from where we are now, in a summer as hot as this one, the Founding Fathers drafted the Constitution of the United States. 

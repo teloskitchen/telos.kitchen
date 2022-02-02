@@ -1,7 +1,7 @@
 ---
-title: "Projects"
+title: "Articles"
 date: 2021-11-22T10:36:33-06:00
 draft: false
 description: ""
-img: "projects/buffalo.png"
+img: "articles/buffalo.png"
 ---

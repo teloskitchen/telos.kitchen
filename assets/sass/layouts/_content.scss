@@ -110,24 +110,44 @@
     letter-spacing: normal;
   }
 
-  code,
-  kbd {
-    font-family: "Fira Code", Monaco, Consolas, Ubuntu Mono, monospace !important;
+  pre {
+    background: transparent !important;
+    padding: 20px 10px;
+    margin: 40px 0;
+    font-size: 1.5rem !important;
+    overflow: auto;
+    border-top: 1px solid rgba($grey, .5);
+    border-bottom: 1px solid rgba($grey, .5);
+  
+    + pre {
+      border-top: 0;
+      margin-top: -40px;
+    }
+  
+    @media screen and (min-width: $breakpoint-sm) {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  
+    code {
+      background: none !important;
+      margin: 0;
+      padding: 0;
+      font-size: inherit;
+      border: none;
+    }
+  }
+
+  code, kbd {
+    font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace !important;
     font-feature-settings: normal;
-    background: rgba($color: $primary, $alpha: 0.5);
-    color: $white;
-    font-size: 1.8rem;
-
-    display: block;
-
-    white-space: pre-wrap;
-    white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
-    white-space: -o-pre-wrap;
-    word-wrap: break-word;
-
-    code,
-    kbd {
+    background: rgba($primary, .2);
+    color: $primary;
+    padding: 1px 6px;
+    margin: 0 2px;
+    font-size: 1.5rem;
+  
+    code, kbd {
       background: transparent;
       padding: 0;
       margin: 0;

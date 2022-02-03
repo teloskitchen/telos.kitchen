@@ -1,12 +1,12 @@
-{{ $page := .Site.GetPage "projects" }} 
+{{ $page := .Site.GetPage "articles" }} 
 {{ $pages := last 4 $page.Pages }} 
 
-<section id="projects">
+<section id="articles">
   <div class="container">
     <h2>{{ $page.Title }}</h2>
     <span class="divider"></span>
-    <div class="projects">
-      <div class="projects-images">
+    <div class="articles">
+      <div class="articles-images">
         {{ range sort $pages "Date" "asc" }}
           {{ if in .Params.Img "png" }}
               {{ $img := resources.Get .Params.Img }}
@@ -17,11 +17,11 @@
           {{ end }}
         {{ end }}
       </div>
-      <div class="projects-list">
+      <div class="articles-list">
         {{ range sort $pages "Date" "asc" }}
-          <div class="project">
-            <h3 class="h6 project-title"><span class="project-symbol">+</span> {{ .Title }}</h3>
-            <div class="project-body">
+          <div class="article">
+            <h3 class="h6 article-title"><span class="article-symbol">+</span> {{ .Title }}</h3>
+            <div class="article-body">
               <p> {{ .Description}} </p>
               <a class="link-decorator" href="{{ .Permalink }}">Learn more >></a>
             </div>

@@ -2,8 +2,8 @@
   {{ $header := resources.Get "js/header.js" | minify -}}
   <script src="{{ $header.Permalink }}" defer></script>
   {{ if .IsHome }}
-    {{ $project := resources.Get "js/projects.js" | minify -}}
-    <script src="{{ $project.Permalink }}" defer></script>
+    {{ $article := resources.Get "js/articles.js" | minify -}}
+    <script src="{{ $article.Permalink }}" defer></script>
     {{ $animations := resources.Get "js/animations.js" | minify -}}
     <script src="{{ $animations.Permalink }}" defer></script>
   {{ end }}

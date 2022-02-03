@@ -1,9 +1,9 @@
 ---
-title: "An Underrated Speech"
+title: 'An Underrated Speech'
 date: 2021-11-22T10:36:33-06:00
 draft: false
-description: "The world's first legally recognized digitally-native, final settlement equity & membership shares have been issued on the Telos blockchain. This DAO owns 35 acres of amazing land in WY."
-img: "projects/buffalo.png"
+description: 'President Clintons speech at the signing of the Electronic Signatures Act in 2000. A good reference point for a pro-innovation, forward-looking government. Watch here.'
+img: 'articles/buffalo.png'
 ---
 
 ### Digitalness: Part 1 of 3
@@ -12,17 +12,16 @@ On June 30, 2000, just six months after our harrowing survival of Y2K, President
 
 ![congress-hall](congress-hall.png)
 
-President Clinton’s speech is especially salient for our times. 
+President Clinton's speech is especially salient for our times. 
 
 It is inspiring and features a live Presidential demo that erupts to thundering applause. The president provided a compelling glimpse into the possibilities of the technology of the time. The speech is a reminder of our current challenge - the unfortunate absence of national or executive branch leadership on modern Digitalness. 
 
-## import youtube video
  {{< youtube tZhqpl0nsOU >}}
 He starts
 
 >> Two hundred and thirteen years ago, about 100 feet from where we are now, in a summer as hot as this one, the Founding Fathers drafted the Constitution of the United States. 
 
->> In the very first article of that document, they wrote that, government shall make no laws, "impairing the obligation of contracts." James Madison called the contract clause -- and I quote again -- "a constitutional bulwark in favor of personal security and private rights." 
+>> In the very first article of that document, they wrote that, government shall make no laws, 'impairing the obligation of contracts.' James Madison called the contract clause -- and I quote again -- 'a constitutional bulwark in favor of personal security and private rights.' 
 
 >> He and his fellow framers understood that the right of individuals to enter into commercial contracts was fundamental not just for economic growth, but for the preservation of liberty itself.
 
@@ -40,12 +39,10 @@ And all of you young people will someday look back on this day that you were her
 
 
 Digitalness
-Wyoming’s Select Committee on Blockchain, Financial Technology and Digital Innovation Technology has architected 25 bills on Digitalness that have been enacted into law. This legislation, as Senator Rothfuss may say, is "to enable, not to restrict."  Digitalness clarity allows not just a new mechanism for digital attestation like the Electronic Signature Act 20 years ago; it also establishes a framework for digital identity, assets, and organizations.  
+Wyoming’s Select Committee on Blockchain, Financial Technology and Digital Innovation Technology has architected 25 bills on Digitalness that have been enacted into law. This legislation, as Senator Rothfuss may say, is 'to enable, not to restrict.'  Digitalness clarity allows not just a new mechanism for digital attestation like the Electronic Signature Act 20 years ago; it also establishes a framework for digital identity, assets, and organizations.  
 
 Digitalness empowers people to govern shared goals and assets at a speed, durability, and adaptability never before seen. This breakthrough innovation will drive economic value throughout the century.
 
-This Digitalness legislation is broader in scope and scale, yet is cut from the same cloth as the Electronic Signatures Act.  There is overlap in the mechanics, and also in spirit, whereas they both "marr[y] our most enduring values to the demands of the new [Digitalness] Age... for the preservation of liberty itself".
-
-———-  end of article ————
+This Digitalness legislation is broader in scope and scale, yet is cut from the same cloth as the Electronic Signatures Act.  There is overlap in the mechanics, and also in spirit, whereas they both 'marr[y] our most enduring values to the demands of the new [Digitalness] Age... for the preservation of liberty itself'.
 
 Next article will expand on Digitalness and how it enables DAO LLC and smart contract sovereignty.

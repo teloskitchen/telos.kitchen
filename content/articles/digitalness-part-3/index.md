@@ -6,6 +6,8 @@ description: "The world's first legally recognized digitally-native, final settl
 img: "articles/buffalo.png"
 ---
 ## Kitchen Lands DAO LLC buys 35 acres in Wyoming
+Author: [3yekn](https://github.com/3yekn)
+
 In the prior article, we shared the breakdown of our understanding of [Wyoming's new Digitalness legislation](/articles/digitalness-part-2/).
 
 I'm happy to report that we have put these new capabilities to work in a real-world proof of concept. We created a new business: Kitchen Lands DAO LLC (KLDL), and that DAO purchased 35 beautiful acres outside of Laramie, Wyoming.
@@ -121,4 +123,6 @@ If an existing reserve ran out, a DAO could issue more tokens in exchange for co
 *** 
 If you made it this far, thank you for learning about our DAO LLC proof of concept with Kitchen Lands DAO LLC. If you appreciate this work, please vote for Telos Kitchen as block producer on the Telos blockchain.
 
-If you have any questions, don’t hesitate to contact us.
+Read [Digitalness: Part 1 of 3 - An Underrated Speech](/articles/digitalness-part-1/)
+
+Read [Digitalness: Part 2 of 3 - Digitalness Primer](/articles/digitalness-part-2)

@@ -8,7 +8,7 @@ img: ""
 ---
 ## Digitalness Primer
 
-Authors: [3yekn](https://github.com/3yekn) and Sam Newbold
+Authors: [3yekn](https://github.com/3yekn) and [Sam Newbold](mailto:snewbold@csglaw.com)
 ```
 digitalness [ dij-i-tl-nis ]
 

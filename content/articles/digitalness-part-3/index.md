@@ -6,6 +6,8 @@ description: "The world's first legally recognized digitally-native, final settl
 img: "articles/buffalo.png"
 ---
 ## Kitchen Lands DAO LLC buys 35 acres in Wyoming
+Author: [3yekn](https://github.com/3yekn)
+
 In the prior article, we shared the breakdown of our understanding of [Wyoming's new Digitalness legislation](/articles/digitalness-part-2/).
 
 I'm happy to report that we have put these new capabilities to work in a real-world proof of concept. We created a new business: Kitchen Lands DAO LLC (KLDL), and that DAO purchased 35 beautiful acres outside of Laramie, Wyoming.

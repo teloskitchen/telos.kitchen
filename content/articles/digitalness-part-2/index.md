@@ -139,3 +139,7 @@ In other words, the on-chain records represent **instant and final settlement of
 Wyoming’s legislation on Digital Identity, Assets, and Organizations are a substantial enabler of innovation in our space. It establishes the start of a framework for how people, businesses, and property may be handled on blockchain networks. 
 
 Our mission is to continue to push the boundaries of open innovation by developing products that accelerate adoption of digitalness in the real world.
+***
+Read [Digitalness: Part 1 of 3 - An Underrated Speech](/articles/digitalness-part-1)
+
+Read [Digitalness: Part 3 of 3 - Step by Step DAO Proof of Concept](/articles/digitalness-part-3)

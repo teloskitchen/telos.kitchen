@@ -121,4 +121,6 @@ If an existing reserve ran out, a DAO could issue more tokens in exchange for co
 *** 
 If you made it this far, thank you for learning about our DAO LLC proof of concept with Kitchen Lands DAO LLC. If you appreciate this work, please vote for Telos Kitchen as block producer on the Telos blockchain.
 
-If you have any questions, don’t hesitate to contact us.
+Read [Digitalness: Part 1 of 3 - An Underrated Speech](/articles/digitalness-part-1/)
+
+Read [Digitalness: Part 2 of 3 - Digitalness Primer](/articles/digitalness-part-2)

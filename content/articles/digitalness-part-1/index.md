@@ -44,3 +44,7 @@ Digitalness clarity is just a new mechanism for digital attestation like the Ele
 Digitalness empowers people to govern shared goals and assets at a speed, durability, and adaptability never before seen. This breakthrough innovation will drive economic value throughout the 21st century.
 
 This Digitalness legislation is broader in scope and scale, yet is cut from the same cloth as the Electronic Signatures Act.  At their core, they both **"marr[y] our most enduring values to the demands of the new [Digitalness] Age... for the preservation of liberty itself"**.
+***
+Read [Digitalness: Part 2 of 3 - Digitalness Primer](/articles/digitalness-part-2)
+
+Read [Digitalness: Part 3 of 3 - Step by Step DAO Proof of Concept](/articles/digitalness-part-3)

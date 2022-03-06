@@ -3,21 +3,21 @@ title: "Digitalness: Part 3 of 3"
 date: 2021-11-22T10:36:33-06:00
 draft: false
 description: "The world's first legally recognized digitally-native, final settlement equity & membership shares have been issued on the Telos blockchain. This DAO owns 35 acres of amazing land in WY."
-img: "articles/buffalo.png"
+img: "property-cover-image.jpg"
 ---
 ## Kitchen Lands DAO LLC buys 35 acres in Wyoming
 Author: [3yekn](https://github.com/3yekn)
 
 In the prior article, we shared the breakdown of our understanding of [Wyoming's new Digitalness legislation](/articles/digitalness-part-2/).
 
-I'm happy to report that we have put these new capabilities to work in a real-world proof of concept. We created a new business: Kitchen Lands DAO LLC (KLDL), and that DAO purchased 35 beautiful acres outside of Laramie, Wyoming.
+I'm excited to share that we have implemented them in a real-world proof of concept. We created a new business: **Kitchen Lands DAO LLC**, and that DAO purchased 35 beautiful acres outside of Laramie, Wyoming.
 
-We took a methodical approach to the activities to ensure that the DAO was decentralized and transparent from genesis. This article explains the play-by-play.
+We took a methodical approach to the activities described below. Our goal to ensure that the DAO was decentralized and transparent from genesis. This article explains the play-by-play.
 
 #### Step 1. Genesis member key ceremony
-Every DAO starts as an idea, usually from a single person, before it is born. This single person recruits additional founding members. We held a key ceremony with the founding members.
+Every DAO starts as an idea, usually from a single person, before it is born. This single person usually recruits additional founding members. Although not required, we held a key ceremony with the founding members.
 
-Of course, this key ceremony can be completely done on-chain if participants have blockchain accounts before deciding to become a founding member. For example, contributions to a crowdfunding contract automatically associate the key with the member.
+Another common genesis event is likely a crowdfunding contract, where contributions codify the members and genesis tokenization.
 
 #### Step 2. Create an account
 The [blockchain account](https://eosauthority.com/account/landdao.tk?network=telos#keys) was created and configured for multisignature based on the founding members. 
@@ -25,7 +25,7 @@ The [blockchain account](https://eosauthority.com/account/landdao.tk?network=tel
 This may also be achieved using the fully sovereign, direct democracy permission from the start, meaning the only permission on the blockchain account would be the `landdao.tk@eosio.code` permission. Since the number of genesis members was small, we elected for multisignature for simplicity.
 
 #### Step 3. Deploy contract
-We use a document-graph smart contract to serve as a flexible and powerful store for DAO information. This allows us to store any arbitrary key value pairs, DAO policies, documentation, files, images, videos, and so on in a format that is easy to access and update via governance rules.
+We use a [document-graph smart contract](https://hashed-io.github.io/document-graph-book/) to serve as a flexible and powerful store for DAO information. This allows us to store any arbitrary key value pairs, DAO policies, documentation, files, images, videos, and so on in a format that is easy to access and update via governance rules.
 
 #### Step 4. Register the DAO LLC
 The DAO LLC must be registered by an organizer, who may or may not be a member of the DAO. The organizer of Kitchen Lands DAO LLC was Telos Kitchen DAO LLC, a block producer on Telos.

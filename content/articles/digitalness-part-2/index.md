@@ -3,12 +3,12 @@ title: "Digitalness: Part 2 of 3"
 date: 2021-11-22T10:36:33-06:00
 draft: false
 authors: 3yekn and Sam Newbold
-description: ""
-img: ""
+description: "An experienced New York attorney and a blockchain developer analyze Wyoming's DAO LLC Act, including how the requirements are implemented on-chain"
+img: "/TK_1024.png"
 ---
 ## Digitalness Primer
 
-Authors: [3yekn](https://github.com/3yekn) and [Sam Newbold](mailto:snewbold@csglaw.com)
+Authors: [3yekn](https://github.com/3yekn) and [Sam Newbold](https://www.csglaw.com/index_y.cfm?t=3&A=19042&format=xml&p=16431&stylesheet=AttorneyBio_New)
 ```
 digitalness [ dij-i-tl-nis ]
 
@@ -57,10 +57,8 @@ The registered name of the LLC must contain “DAO”, “LAO”, or “DAO LLC�
 
 The articles of organization shall include a publicly available identifier of any smart contract directly used to manage, facilitate or operate the decentralized autonomous organization.
 
-The above items all pertain to content or information that must be in the registration. The Act also defines what decisions and duties the smart contract must govern. Here are those requirements and how each one is implemented on-chain in the base DAO LLC smart contract reference implementation. Of course, this contract can be upgraded by members (and members alone), in which case the right-hand column may change.
-
 ## Smart Contract Requirements
-In the below blocks, the numbered `requirements` are quoted from the legislation, and the `implementation` below each one is a description of how we have satisfied it with our DAO(s).
+The above items all pertain to content or information that must be in the registration. The Act also defines what decisions and duties the smart contract must govern. In the below sections, the numbered `requirements` are quoted from the legislation, and the `implementation` that follows is a description of how we have addressed it. 
 ***
 `Req 1` Relations among the members and between the members and the decentralized autonomous organization
 
@@ -70,7 +68,7 @@ In the below blocks, the numbered `requirements` are quoted from the legislation
 
 `Impl 2` Members have a right to make proposals and vote on proposals. They also have the right to transfer their membership interests at any time, unless otherwise proposed and managed via an upgrade to the base contract (for activities such as staking).
 *** 
-`Req 3`Activities of the decentralized autonomous organization and the conduct of those activities
+`Req 3` Activities of the decentralized autonomous organization and the conduct of those activities
 
 `Impl 3` The DAO may elect, via a vote or proposal, to hire third parties or agents to conduct off-chain activities, such as paying taxes or fees. These parties or agents may or may not be members of the DAO.
 ***
@@ -110,35 +108,32 @@ Voting power is equivalent to membership interest. Both are calculated as the nu
 `Req 11` All other aspects of the decentralized autonomous organization
 
 `Impl 11` From time to time, there may be off-chain activities required by the DAO, such as placing an offer on a property or paying property taxes.
-
+***
 These are handled via an elected agent of the DAO, who may or may not be a member.
 
-## DAO Information Requests
-If information is available on an open blockchain, there is no duty or requirement for the DAO to otherwise provide that information to members. This implies that it is permissible to operate the DAO on a private blockchain (with a public identifier).  More importantly, it ensures that the DAO does not need to comply with laborious information requests (a potential attack vector) since it is already publicly available.
-
 ### Code is Law
-One of the Act’s most _**consequential and empowering**_ aspect is found in the **Miscellaneous** section. 
+One of the Act’s most **_consequential and empowering_** aspect is found in the **Miscellaneous** section:
 
 > *Where the underlying articles of organization and operating agreement are in conflict, the articles of organization shall preempt any conflicting provisions.  Where the underlying articles of organization and smart contract are in conflict, the smart contract shall preempt any conflicting provisions of the articles of organization.*
 
-This establishes a hierarchy of effective power among the core documents of a DAO LLC. The Articles of Organization trump the Operating Agreement, and the Smart Contract trumps the Articles of Organization.
+This establishes a hierarchy of power or precedence among the core documents of a DAO LLC. The Articles of Organization trump the Operating Agreement, and the Smart Contract trumps the Articles of Organization.
 
 `Smart Contract    >   Articles of Organization    >   Operating Agreement`
 
 ----*The smart contract is the most powerful of all*------   **CODE IS LAW**
 
-This clause clarifies that the on-chain smart contract is the highest, most trusted source of information. In our DAO LLC smart contract template, the much of the document text is stored within the smart contract itself. Even so, the machine code within the smart contract(s) trumps all. 
+This clause clarifies that the on-chain smart contract is the highest, most trusted source of information. 
 
 This clarification empowers the machine code above all else, which is a critical factor in allowing digitalness to thrive. 
 
-This makes sense in a classic legal manner because the smart contract is the best proxy, or best clue for understanding the intent of the parties. It is an explicit understanding that forcing smart contract machine code to comply with paper documents or written words unravels the value proposition. If it were even cryptographically possible, the ability to overrule the machine code would create an existential vulnerability for the DAO.
+This makes sense in a classic legal manner because the smart contract is the best proxy, or best clue for understanding the intent of the parties. It is an explicit understanding that forcing smart contract machine code to comply with paper documents or written words unravels its value proposition. If it were even cryptographically possible, the ability for a government judicial body to overrule the machine code would create an existential vulnerability for any DAO.
 
-In other words, the on-chain records represent **instant and final settlement of state-backed property rights.**
+In other words, the on-chain records represent **instant and final settlement of state-protected property rights.**
 
 ## Future of Digitalness
 Wyoming’s legislation on Digital Identity, Assets, and Organizations are a substantial enabler of innovation in our space. It establishes the start of a framework for how people, businesses, and property may be handled on blockchain networks. 
 
-Our mission is to continue to push the boundaries of open innovation by developing products that accelerate adoption of digitalness in the real world.
+Our mission is to continue to push the boundaries of open innovation by developing products that accelerate adoption of digitalness around the world.
 ***
 Read [Digitalness: Part 1 of 3 - An Underrated Speech](/articles/digitalness-part-1)
 

@@ -4,7 +4,7 @@ date: 2021-11-22T10:36:33-06:00
 draft: false
 authors: 3yekn and Sam Newbold
 description: "An experienced New York attorney and a blockchain developer analyze Wyoming's DAO LLC Act, including how the requirements are implemented on-chain"
-img: "/TK_1024.png"
+img: "TK_1024.png"
 ---
 ## Digitalness Primer
 

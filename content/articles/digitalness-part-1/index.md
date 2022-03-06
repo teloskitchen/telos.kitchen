@@ -2,8 +2,8 @@
 title: 'Digitalness: Part 1 of 3'
 date: 2021-11-22T10:36:33-06:00
 draft: false
-description: 'President Clintons speech at the signing of the Electronic Signatures Act in 2000. A good reference point for a pro-innovation, forward-looking government. Watch here.'
-img: 'articles/buffalo.png'
+description: 'President Clinton's speech at the signing of the Electronic Signatures Act in 2000 provides a model for a pro-innovation, forward-looking government. Watch here.'
+img: '/TK_1024.png'
 ---
 ## An Underrated Speech
 Author: [3yekn](https://github.com/3yekn)
@@ -37,13 +37,13 @@ The demonstration reminds us that this was six years before the launch of the iP
 > *And all of you young people will someday look back on this day that you were here and marvel that we thought it was any big deal. And that will be the ultimate test of success.*
 
 # Digitalness
-[Wyoming’s Select Committee on Blockchain, Financial Technology and Digital Innovation Technology](https://www.wyoleg.gov/Committees/2022/S19) has architected 25 bills on Digitalness that have been enacted into law. The purpose of this legislation, as [Senator Rothfuss](https://twitter.com/rothfuss) may say, is **'to enable, not to restrict.'**  
+[Wyoming’s Select Committee on Blockchain, Financial Technology and Digital Innovation Technology](https://www.wyoleg.gov/Committees/2022/S19) has architected 25 bills on Digitalness that have been enacted into law. The purpose of this legislation, as [Senator Rothfuss](https://twitter.com/rothfuss) expressed during a session last year, is **"to enable, not to restrict."**  
 
-Digitalness clarity is just a new mechanism for digital attestation like the Electronic Signature Act 20 years ago; it establishes a holistic framework for digital identity, assets, and organizations.  
+Digitalness clarity is a new mechanism for digital attestation like the Electronic Signature Act 20 years ago; it establishes a holistic framework for digital identity, assets, and organizations.  
 
-Digitalness empowers people to govern shared goals and assets at a speed, durability, and adaptability never before seen. This breakthrough innovation will drive economic value throughout the 21st century.
+Digitalness empowers people to govern shared goals and assets at an unprecedented speed, durability, and adaptability. This breakthrough innovation will drive economic innovation throughout the 21st century.
 
-This Digitalness legislation is broader in scope and scale, yet is cut from the same cloth as the Electronic Signatures Act.  At their core, they both **"marr[y] our most enduring values to the demands of the new [Digitalness] Age... for the preservation of liberty itself"**.
+This Digitalness legislation is broader in scope and scale, yet is cut from the same cloth as the Electronic Signatures Act.  At their core, they both serve to **"marr[y] our most enduring values to the demands of the new [Digitalness] Age... for the preservation of liberty itself"**.
 ***
 Read [Digitalness: Part 2 of 3 - Digitalness Primer](/articles/digitalness-part-2)
 

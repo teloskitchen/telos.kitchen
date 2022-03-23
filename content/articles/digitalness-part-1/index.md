@@ -4,6 +4,7 @@ date: 2021-11-22T10:36:33-06:00
 draft: false
 description: "President Clinton's speech at the signing of the Electronic Signatures Act in 2000 provides a model for a pro-innovation, forward-looking government. Watch here."
 thumbnail: TK_1024.png
+img: "articles/buffalo.png"
 ---
 ## An Underrated Speech
 Author: [3yekn](https://github.com/3yekn)

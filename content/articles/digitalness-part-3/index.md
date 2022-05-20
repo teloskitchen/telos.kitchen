@@ -7,7 +7,7 @@ image: "TK_1024.png"
 img: "articles/buffalo.png"
 ---
 ## Kitchen Lands DAO LLC buys 35 acres in Wyoming
-Author: [3yekn](https://github.com/3yekn)
+Author: [Max Gravitt](https://github.com/3yekn)
 
 In the prior article, we shared the breakdown of our understanding of [Wyoming's new Digitalness legislation](/articles/digitalness-part-2/).
 

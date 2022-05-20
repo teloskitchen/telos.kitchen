@@ -7,7 +7,7 @@ thumbnail: TK_1024.png
 img: "articles/buffalo.png"
 ---
 ## An Underrated Speech
-Author: [3yekn](https://github.com/3yekn)
+Author: [Max Gravitt](https://github.com/3yekn)
 
 On June 30, 2000, just six months after our harrowing survival of Y2K, President Bill Clinton signed into law the [Electronic Signatures in Global and National Commerce Act](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-chapter96&saved=%7CZ3JhbnVsZWlkOlVTQy1wcmVsaW0tdGl0bGUxNS1zZWN0aW9uNzAwMQ%3D%3D%7C%7C%7C0%7Cfalse%7Cprelim&edition=prelim). His speech took place in Congress Hall in Philadelphia, where Congress ratified the United States Bill of Rights in 1791.
 

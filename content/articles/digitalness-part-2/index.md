@@ -2,14 +2,14 @@
 title: "Digitalness: Part 2 of 3"
 date: 2021-11-22T10:36:33-06:00
 draft: false
-authors: 3yekn and Sam Newbold
+authors: Max Gravitt and Sam Newbold
 description: "An experienced New York attorney and a blockchain developer analyze Wyoming's DAO LLC Act, including how the requirements are implemented on-chain"
 featured_image: "TK_1024.png"
 img: "articles/buffalo.png"
 ---
 ## Digitalness Primer
 
-Authors: [3yekn](https://github.com/3yekn) and [Sam Newbold](https://www.csglaw.com/index_y.cfm?t=3&A=19042&format=xml&p=16431&stylesheet=AttorneyBio_New)
+Authors: [Max Gravitt](https://github.com/3yekn) and [Sam Newbold](https://www.csglaw.com/index_y.cfm?t=3&A=19042&format=xml&p=16431&stylesheet=AttorneyBio_New)
 ```
 digitalness [ dij-i-tl-nis ]
 
